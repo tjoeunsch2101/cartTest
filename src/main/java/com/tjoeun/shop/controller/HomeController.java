@@ -12,4 +12,14 @@ public class HomeController {
 		return "index";
 	}
 
+	@GetMapping("/git")
+	public String git() {
+		return "git";
+	}
+
+	@GetMapping("/branch")
+	public String branch() {
+		return "branch";
+	}
+
 }
